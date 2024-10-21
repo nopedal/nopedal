@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nopedal&label=Profile%20views&color=0e75b6&style=flat" alt="nopedal" /> </p>
 
-- 🔭 I’m currently working on **MP3 Player**
+- 🔭 I’m currently working on a **MP3 Player Project**
 
 - 💬 Ask me about **react, python,**
 

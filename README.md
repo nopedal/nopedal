@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nopedal" alt="nopedal" /></a> </p>
 
-- 🔭 I’m currently working on **MP3 Player**
+- 🔭 I’m currently working on [MP3 Player](https://github.com/nopedal/MP3Player)
 
 - 💬 Ask me about **react, python,**
 

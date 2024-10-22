@@ -1,4 +1,4 @@
-#Im an upcoming Full-Stack Developer based in Norway!
+# Im an upcoming Full-Stack Developer based in Norway!
 🔭 I’m currently working on a top secret project <br>💬 Ask me about react, python, js, next.js, <br>📫 How to reach me nikolas.opedal@gmail.com<br>👨‍💻 All of my projects are available at github.com/nopedal
 
 

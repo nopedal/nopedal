@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nikolas</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nealwu&label=Profile%20views&color=000000&style=flat" alt="nopedal" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nopedal&label=Profile%20views&color=000000&style=flat" alt="nopedal" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nealwu&theme=onedark" alt="nealwu" /></a> </p>
 

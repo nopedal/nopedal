@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Nikolas</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nopedal&label=Profile%20views&color=000000&style=flat" alt="nopedal" /> </p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I'm+Nikolas)](https://git.io/typing-svg)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nealwu&theme=onedark" alt="nealwu" /></a> </p>
 

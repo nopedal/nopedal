@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **cli**
 
-- 👨‍💻 All of my projects are available at [opedal.me](opedal.me)
+- 👨‍💻 All of my projects are available at [opedal.vercel.app](opedal.vercel.app)
 
 - 💬 Ask me about **react, typescript,**
 

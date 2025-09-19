@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **cli**
 
-- 👨‍💻 All of my projects are available at [opedal.vercel.app](opedal.vercel.app)
+- 👨‍💻 All of my projects are available at [opedal.vercel.app](opedal.vercel.app)    OR [https://opedals.vercel.app/](opedals.vercel.app)
 
 - 💬 Ask me about **react, typescript,**
 

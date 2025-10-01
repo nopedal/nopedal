@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **cli**
 
-- 👨‍💻 All of my projects are available at [coming soon](coming soon)
+- 👨‍💻 All of my projects are available at 
 
 - 💬 Ask me about **react, typescript,**
 

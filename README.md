@@ -18,7 +18,7 @@
   <img src="https://streak-stats.demolab.com/?user=nopedal&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="nopedal's GitHub Streak" width="49%" />
 </p>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nopedal&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Nikolas Opedal's GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=nealwu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Nikolas Opedal's GitHub Trophies" />
 </p>
 <p align="center">
   <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=nopedal&theme=tokyonight&radius=10" alt="nopedal's Activity Graph" />

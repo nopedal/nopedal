@@ -2,7 +2,7 @@
 <h3 align="center">Software Engineer</h3>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=nealwu">
+  <a href="https://komarev.com/ghpvc/?username=nopedal">
     <img src="https://komarev.com/ghpvc/?username=nopedal&label=Profile%20views&color=00FFFF&style=flat-square" alt="nopedal's profile views" />
   </a>
 </p>

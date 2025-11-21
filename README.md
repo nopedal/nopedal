@@ -14,8 +14,8 @@
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=nopedal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="nopedal's GitHub Stats" width="49%" />  
-<img src="https://streak-stats.demolab.com/?user=nopedal&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="nopedal's GitHub Streak" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=nopedal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&cache_seconds=86400" alt="nopedal's GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=nopedal&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="nopedal's GitHub Streak" width="49%" />
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nealwu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Nikolas Opedal's GitHub Trophies" />

@@ -8,10 +8,10 @@
 
 
 
-<p align="center">
+<p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nopedal&theme=blueberry" />
 </p>    
 
-<p align="center">
+<p align="right">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nopedal&theme=blueberry" />
 </p>    

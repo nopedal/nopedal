@@ -16,9 +16,9 @@ Developer based in Haugesund, Norway! I build everything from Software - Systems
 
 **Current Projects**
 
-[![QIRO](https://img.shields.io/badge/QIRO-Content%20Dashboard-blue?style=for-the-badge)](https://qiro.vercel.app)
+[![QIRO](https://img.shields.io/badge/QIRO-Content%20Dashboard-blue?style=for-the-badge)](https://qiro.no)
 [![Nyrd](https://img.shields.io/badge/Nyrd-B2B%20Automation-brightgreen?style=for-the-badge)](https://nyrd.no)
-[![Boltramind](https://img.shields.io/badge/Boltramind-Agentic%20Platform-orange?style=for-the-badge)](https://github.com/nopedal)
+[![Boltramind](https://img.shields.io/badge/Boltramind-Agentic%20Platform-orange?style=for-the-badge)](https://boltramind.com)
 
 <br/>
 

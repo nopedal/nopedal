@@ -10,12 +10,11 @@
 
 <br/>
 
-### Hey, I'm Nikolas 👋
-Apprentice developer based in Haugesund, Norway. Building **QIRO**, **Nyrd**, and **Boltramind** — focused on full stack web, automation, and AI-powered tooling.
-
+### Hey, I'm Nikolas
+Developer based in Haugesund, Norway! I build everything from Software - Systems
 <br/>
 
-**🔨 Current Projects**
+**Current Projects**
 
 [![QIRO](https://img.shields.io/badge/QIRO-Content%20Dashboard-blue?style=for-the-badge)](https://qiro.vercel.app)
 [![Nyrd](https://img.shields.io/badge/Nyrd-B2B%20Automation-brightgreen?style=for-the-badge)](https://nyrd.no)
@@ -23,7 +22,7 @@ Apprentice developer based in Haugesund, Norway. Building **QIRO**, **Nyrd**, an
 
 <br/>
 
-**🛠️ Tech Stack**
+**Tech Stack**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,rust,cpp,go,supabase,npm,figma" />
@@ -31,7 +30,7 @@ Apprentice developer based in Haugesund, Norway. Building **QIRO**, **Nyrd**, an
 
 <br/>
 
-**📊 Stats**
+**Stats**
 
 <table align="center"><tr>
   <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nopedal&theme=blueberry" /></td>
@@ -40,7 +39,7 @@ Apprentice developer based in Haugesund, Norway. Building **QIRO**, **Nyrd**, an
 
 <br/>
 
-**📬 Contact**
+**Contact**
 
 <div align="center">
 

@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A pirate ship sailing under a moonlit night">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c0c10"/>
+      <stop offset="0.7" stop-color="#141419"/>
+      <stop offset="1" stop-color="#1b1b22"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      :root { }
+      .ship { transform-box: fill-box; transform-origin: 50% 95%; animation: bob 6s ease-in-out infinite; }
+      @keyframes bob {
+        0%,100% { transform: translateY(0) rotate(-1.4deg); }
+        50%     { transform: translateY(-7px) rotate(1.4deg); }
+      }
+      .flag { transform-box: fill-box; transform-origin: 0% 50%; animation: flutter 2.2s ease-in-out infinite; }
+      @keyframes flutter {
+        0%,100% { transform: skewY(-4deg) scaleX(1); }
+        50%     { transform: skewY(4deg) scaleX(0.94); }
+      }
+      .wave-a { animation: drift 14s linear infinite; }
+      .wave-b { animation: drift 22s linear infinite reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+      .twinkle { animation: tw 4s ease-in-out infinite; }
+      .twinkle.d { animation-delay: 1.3s; }
+      .twinkle.e { animation-delay: 2.6s; }
+      @keyframes tw { 0%,100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+      .glow { animation: pulse 7s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 0.8; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .ship,.flag,.wave-a,.wave-b,.twinkle,.glow { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="420" fill="url(#sky)"/>
+
+  <!-- moon -->
+  <g class="glow">
+    <circle cx="930" cy="120" r="140" fill="url(#moonGlow)"/>
+  </g>
+  <circle cx="930" cy="120" r="58" fill="#e9e6f5"/>
+  <circle cx="908" cy="104" r="9" fill="#d6d2e8" opacity="0.6"/>
+  <circle cx="948" cy="136" r="6" fill="#d6d2e8" opacity="0.5"/>
+  <circle cx="944" cy="100" r="4" fill="#d6d2e8" opacity="0.5"/>
+
+  <!-- stars -->
+  <g fill="#e4e4e7">
+    <circle class="twinkle"   cx="140" cy="70"  r="1.6"/>
+    <circle class="twinkle d" cx="300" cy="120" r="1.2"/>
+    <circle class="twinkle e" cx="520" cy="60"  r="1.8"/>
+    <circle class="twinkle"   cx="700" cy="90"  r="1.2"/>
+    <circle class="twinkle d" cx="1090" cy="180" r="1.5"/>
+    <circle class="twinkle e" cx="1030" cy="70"  r="1.2"/>
+    <circle class="twinkle"   cx="220" cy="200" r="1.2"/>
+    <circle class="twinkle d" cx="60"  cy="150" r="1.4"/>
+  </g>
+
+  <!-- ================= SHIP ================= -->
+  <g class="ship">
+    <g fill="none" stroke="#e4e4e7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+      <!-- rigging / stays -->
+      <path d="M 500 118 L 405 300 M 500 118 L 640 292" stroke-width="1.1" opacity="0.55"/>
+      <path d="M 452 150 L 405 300 M 452 150 L 560 300" stroke-width="1.1" opacity="0.45"/>
+
+      <!-- masts -->
+      <line x1="500" y1="300" x2="500" y2="115"/>
+      <line x1="452" y1="300" x2="452" y2="150"/>
+
+      <!-- yards -->
+      <line x1="470" y1="150" x2="530" y2="150"/>
+      <line x1="458" y1="196" x2="542" y2="196"/>
+      <line x1="426" y1="166" x2="478" y2="166"/>
+      <line x1="418" y1="206" x2="486" y2="206"/>
+
+      <!-- main sails -->
+      <path d="M 473 152 Q 500 176 527 152 L 522 188 Q 500 200 478 188 Z"
+            fill="#e4e4e7" fill-opacity="0.09"/>
+      <path d="M 460 198 Q 500 234 540 198 L 532 256 Q 500 274 468 256 Z"
+            fill="#e4e4e7" fill-opacity="0.09"/>
+
+      <!-- fore sails -->
+      <path d="M 429 168 Q 452 188 475 168 L 471 200 Q 452 210 433 200 Z"
+            fill="#e4e4e7" fill-opacity="0.09"/>
+      <path d="M 421 208 Q 452 238 483 208 L 478 258 Q 452 272 426 258 Z"
+            fill="#e4e4e7" fill-opacity="0.09"/>
+
+      <!-- bowsprit -->
+      <line x1="418" y1="296" x2="372" y2="276"/>
+      <path d="M 388 284 Q 402 296 404 300" stroke-width="1.1" opacity="0.5"/>
+
+      <!-- hull -->
+      <path d="M 404 300 L 648 300 L 632 340 Q 520 366 424 340 Z"
+            fill="#18181b"/>
+      <!-- gun deck line -->
+      <path d="M 415 318 L 636 318" stroke-width="1.1" opacity="0.5"/>
+      <!-- portholes -->
+      <g fill="#e4e4e7" stroke="none" opacity="0.55">
+        <circle cx="452" cy="326" r="2.2"/>
+        <circle cx="490" cy="328" r="2.2"/>
+        <circle cx="528" cy="328" r="2.2"/>
+        <circle cx="566" cy="326" r="2.2"/>
+        <circle cx="602" cy="324" r="2.2"/>
+      </g>
+      <!-- stern castle -->
+      <path d="M 612 300 L 612 274 Q 636 270 648 284 L 648 300"/>
+    </g>
+
+    <!-- pirate flag -->
+    <g class="flag">
+      <path d="M 500 112 L 556 106 L 548 122 L 556 138 L 500 132 Z" fill="#8b5cf6"/>
+      <g fill="#0c0c10">
+        <circle cx="521" cy="119" r="6.2"/>
+        <rect x="516" y="124" width="10" height="6" rx="1.5"/>
+        <rect x="508" y="126.5" width="26" height="2.2" rx="1.1" transform="rotate(24 521 127.6)"/>
+        <rect x="508" y="126.5" width="26" height="2.2" rx="1.1" transform="rotate(-24 521 127.6)"/>
+      </g>
+      <g fill="#8b5cf6">
+        <circle cx="518.6" cy="118.4" r="1.4"/>
+        <circle cx="523.4" cy="118.4" r="1.4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= SEA ================= -->
+  <!-- moon reflection -->
+  <g opacity="0.5">
+    <rect x="905" y="312" width="50" height="2.5" rx="1.25" fill="#c9c3e6"/>
+    <rect x="898" y="326" width="64" height="2.5" rx="1.25" fill="#b8b1dc" opacity="0.8"/>
+    <rect x="908" y="342" width="44" height="2.5" rx="1.25" fill="#b8b1dc" opacity="0.6"/>
+  </g>
+
+  <!-- horizon -->
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#3a3a45" stroke-width="1"/>
+
+  <!-- waves back -->
+  <g class="wave-b" fill="none" stroke="#4b4b57" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <path d="M -180 336 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0"/>
+  </g>
+  <!-- waves front -->
+  <g class="wave-a" fill="none" stroke="#7c6fb0" stroke-width="2.4" stroke-linecap="round" opacity="0.8">
+    <path d="M -180 360 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0"/>
+  </g>
+  <rect x="0" y="384" width="1200" height="36" fill="#1b1b22"/>
+</svg>

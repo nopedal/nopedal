@@ -1,48 +1,68 @@
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFFFFF&background=FFFFFF00&width=435&lines=System+Developer;Full+Stack+Developer" alt="Typing SVG" /></a>
-</div>
+
+<img src="./assets/pirate-ship.svg" width="100%" alt="A pirate ship sailing under a violet moon" />
 
 <br/>
+
+# Nikolas Opedal
+
+**System &amp; full-stack developer** &middot; Haugesund, Norway
+
+I build agentic platforms, developer tools, and the systems that hold them together.
+
+</div>
+
+---
+
+### Building
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=nopedal&base=2500&style=for-the-badge&color=blueviolet" />
+
+[![QIRO](https://img.shields.io/badge/QIRO-Content_dashboard-8b5cf6?style=flat-square&labelColor=18181b)](https://qiro.no)
+&nbsp;
+[![Nyrd](https://img.shields.io/badge/Nyrd-B2B_automation-8b5cf6?style=flat-square&labelColor=18181b)](https://nyrd.no)
+&nbsp;
+[![Boltramind](https://img.shields.io/badge/Boltramind-Agentic_platform-8b5cf6?style=flat-square&labelColor=18181b)](https://boltramind.com)
+
 </div>
 
-<br/>
+---
 
-### Hey, I'm Nikolas
-Developer based in Haugesund, Norway! I build everything from Software - Systems
-<br/>
-
-**Current Projects**
-
-[![QIRO](https://img.shields.io/badge/QIRO-Content%20Dashboard-blue?style=for-the-badge)](https://qiro.no)
-[![Nyrd](https://img.shields.io/badge/Nyrd-B2B%20Automation-brightgreen?style=for-the-badge)](https://nyrd.no)
-[![Boltramind](https://img.shields.io/badge/Boltramind-Agentic%20Platform-orange?style=for-the-badge)](https://boltramind.com)
-
-<br/>
-
-**Tech Stack**
+### Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,rust,cpp,go,supabase,npm,figma" />
+
+`languages` &nbsp; TypeScript &middot; Rust &middot; C++ &middot; Go
+
+`frameworks` &nbsp; React &middot; Next.js
+
+`infra` &nbsp; Supabase &middot; Figma
+
 </div>
 
-<br/>
+---
 
-**Stats**
+### Stats
 
-<table align="center"><tr>
-  <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nopedal&theme=blueberry" /></td>
-  <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nopedal&theme=blueberry" /></td>
+<div align="center">
+
+<table><tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=nopedal&show_icons=true&hide_title=true&hide_border=true&count_private=true&icon_color=8b5cf6&title_color=8b5cf6&text_color=a1a1aa&bg_color=18181b" alt="GitHub stats" />
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nopedal&layout=compact&hide_border=true&hide_title=true&title_color=8b5cf6&text_color=a1a1aa&bg_color=18181b" alt="Most used languages" />
+</td>
 </tr></table>
 
-<br/>
+</div>
 
-**Contact**
+---
+
+### Reach me
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/nikolas.opedal@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikolas.opedal@gmail.com)
+[![Email](https://img.shields.io/badge/nikolas.opedal@gmail.com-8b5cf6?style=flat-square&labelColor=18181b&logo=gmail&logoColor=white)](mailto:nikolas.opedal@gmail.com)
 
 </div>

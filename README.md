@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/pirate-ship.svg" width="100%" alt="A pirate ship sailing under a violet moon" />
+<img src="./pirate-ship.svg" width="100%" alt="A pirate ship sailing under a violet moon" />
 
 <br/>
 

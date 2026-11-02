@@ -1,0 +1,34 @@
+name: lauv contribution branch
+description: Draws a GitHub contribution year as a branch of leaves, as animated SVG for a profile README.
+author: Nikolas Opedal
+branding:
+  icon: feather
+  color: green
+
+inputs:
+  config:
+    description: Path to lauv.json. Optional.
+    default: lauv.json
+  login:
+    description: Account to draw, when lauv.json does not set one.
+    default: ${{ github.repository_owner }}
+  out:
+    description: Output directory, when lauv.json does not set one.
+    default: lauv
+  token:
+    description: Token for the GitHub API. Private repositories in lauv.json need a token that can read them.
+    default: ${{ github.token }}
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v5
+      with:
+        node-version: 24
+    - shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
+        LAUV_CONFIG: ${{ inputs.config }}
+        LAUV_LOGIN: ${{ inputs.login }}
+        LAUV_OUT: ${{ inputs.out }}
+      run: node --no-warnings "$GITHUB_ACTION_PATH/src/cli.ts" build --config "$LAUV_CONFIG"

@@ -1,0 +1,26 @@
+{
+  "login": "nopedal",
+  "out": "art",
+  "detail": "film",
+  "cuttings": [
+    {
+      "file": "qiro.svg",
+      "name": "Qiro",
+      "repos": [
+        "nopedal/QIRO"
+      ]
+    },
+    {
+      "file": "klab.svg",
+      "name": "K—lab",
+      "repos": [
+        "nopedal/K-Labs"
+      ]
+    },
+    {
+      "file": "khuset.svg",
+      "name": "K—huset",
+      "source": "calendar"
+    }
+  ]
+}

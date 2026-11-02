@@ -1,0 +1,40 @@
+{
+  "name": "lauv",
+  "version": "1.0.0",
+  "description": "Draws a GitHub contribution year as a branch of leaves, as animated SVG for a profile README.",
+  "keywords": [
+    "github",
+    "profile-readme",
+    "contributions",
+    "generative-art",
+    "svg",
+    "github-action"
+  ],
+  "homepage": "https://github.com/nopedal/nopedal/tree/main/lauv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nopedal/nopedal.git",
+    "directory": "lauv"
+  },
+  "author": "Nikolas Opedal (https://nopedal.me)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "lauv": "src/cli.ts"
+  },
+  "exports": {
+    ".": "./src/render.ts",
+    "./collect": "./src/collect.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "5.9"
+  },
+  "private": true
+}

@@ -1,0 +1,46 @@
+name: lauv
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [lauv.json, lauv/src/**, .github/workflows/lauv.yml]
+
+permissions:
+  contents: write
+
+concurrency: lauv
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # Qiro and K—lab are private, so the drawing needs LAUV_TOKEN.
+      # Without it the run changes nothing instead of drawing from public data only.
+      - id: token
+        env:
+          LAUV_TOKEN: ${{ secrets.LAUV_TOKEN }}
+        run: |
+          if [ -n "$LAUV_TOKEN" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::LAUV_TOKEN is not set. The drawings were left as they are."
+          fi
+
+      - if: steps.token.outputs.ok == 'true'
+        uses: ./lauv
+        with:
+          token: ${{ secrets.LAUV_TOKEN }}
+
+      - if: steps.token.outputs.ok == 'true'
+        run: |
+          git add art
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Redraw art"
+          git push

@@ -1,5 +1,5 @@
 
-# Nikolas Opedal
+# Nikolas
 
 System developer & full-stack engineer in Haugesund, Norway.
 
